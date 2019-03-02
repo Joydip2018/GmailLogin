@@ -18,6 +18,6 @@ public class BaseClass
 	public static void closebrowser() throws Exception
 	{
 		Thread.sleep(2000);
-		Driver.close();	
+		Driver.quit();	
 	}
 }

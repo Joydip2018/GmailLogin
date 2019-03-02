@@ -35,11 +35,11 @@ public class loginpageelement
 	@CacheLookup
 	WebElement Nextbtn1;
 	
-	@FindBy(xpath="//div[@id='gbwa']//a[@class='gb_b']")
+	@FindBy(xpath="//a[@title ='Google apps']")
 	@CacheLookup
 	WebElement Gbtn;
 
-	@FindBy(xpath="//a[@id='gb23']//span[@class='gb_W']")
+	@FindBy(xpath="//span[contains(text(),'Gmail')]")
 	@CacheLookup
 	WebElement Gmailbtn;
 	
@@ -88,8 +88,8 @@ public class loginpageelement
 			}
 			i++;
 		}
-		Gmbtn();		
-		Gmailbtn();
+		//Gmbtn();		
+		//Gmailbtn();
 	}
 	
 }
